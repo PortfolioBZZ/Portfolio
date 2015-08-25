@@ -1,0 +1,74 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Modul 152: BZZ-Portfolio</title><description>Mittels diesem Portfolio, werde ich meine
+Kompetenzen für das Modul 152
+nachweisen.</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 25 Aug 2015 21:58:14 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Ghost and GitHub</title><description>&lt;h1 id="howtoblog"&gt;How to Blog&lt;/h1&gt;
+
+&lt;p&gt;Bei der Dokumentation meines Portfolios habe ich mich für einen einfachen HTML5 &amp;amp; CSS Blog entschieden. &lt;br&gt;
+Ich setze diesen Blog mittels des "back-to-basics" CMS, Ghost, in Verbindung mit dem webbasierten Versionverwaltungstool, Github, um.&lt;/p&gt;
+
+&lt;p&gt;Diese Technologien werden heute oft gebraucht, jedoch erläutere ich hier nochmals kurz die grossen&lt;/p&gt;</description><link>http://localhost:2368/ghost-and-github/</link><guid isPermaLink="false">89691554-0d66-4ee3-9d66-3fb236ba5142</guid><category>Github</category><category>Ghost</category><category>Dokumentation-Setup</category><dc:creator>Jorit Studer</dc:creator><pubDate>Tue, 25 Aug 2015 20:04:05 GMT</pubDate><content:encoded>&lt;h1 id="howtoblog"&gt;How to Blog&lt;/h1&gt;
+
+&lt;p&gt;Bei der Dokumentation meines Portfolios habe ich mich für einen einfachen HTML5 &amp;amp; CSS Blog entschieden. &lt;br&gt;
+Ich setze diesen Blog mittels des "back-to-basics" CMS, Ghost, in Verbindung mit dem webbasierten Versionverwaltungstool, Github, um.&lt;/p&gt;
+
+&lt;p&gt;Diese Technologien werden heute oft gebraucht, jedoch erläutere ich hier nochmals kurz die grossen Vorteile.&lt;/p&gt;
+
+&lt;h6 id="github"&gt;&lt;strong&gt;GitHub:&lt;/strong&gt;&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;gratis&lt;/li&gt;
+&lt;li&gt;immer den ganzen Projekt Verlauf verfügbar (via Hash)  &lt;/li&gt;
+&lt;li&gt;man kann jederzeit lokal "commiten" ohne eine Verbindung zum Server zu haben 
+&lt;ul&gt;&lt;li&gt;Hier durch kann man auch seine "push Changelogs" besser gestalten und vereinheitlichen&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;es regt die Benutzer dazu an, eigene Branches und Forks zu kreieren und dann eigene Features und Bugs mittels einem "Pull-Request" zu mergen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Ich verwende GitHub in diesem Projekt jedoch, wegen zwei andere wichtige Features. &lt;br&gt;
+- GitHub-Pages, dem einfachen Hosting von statischen Webseiten &lt;br&gt;
+- und der absoluten Freiheit die es mir gibt, ohne VM von überall zu arbeiten (pull &amp;amp; push)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h6 id="ghost"&gt;&lt;strong&gt;Ghost:&lt;/strong&gt;&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Es ist zu 100% Open-Source und gratis, man kann es also modifizieren und für alle Zwecke verwenden...  &lt;/li&gt;
+&lt;li&gt;Es ist einfach zu pflegen, da es wie jedes CMS mittels vorgefertigten Designs und Tags funktioniert&lt;/li&gt;
+&lt;li&gt;Der grosse Vorteil gegenüber Wordpress ist, dass dieses CMS speziell fürs bloggen erstellt wurde. Das heisst es ist sehr schlicht gehalten, ist sehr effizient aufgebaut und es hat nicht so viele "unnötige" Features wie Wordpress.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="macosxsetupanleitung"&gt;Mac OSX Setup Anleitung:&lt;/h2&gt;
+
+&lt;p&gt;Um Ghost als statischen Blog auf GitHub laufen zu lassen, muss man ihn vorher mittels Buster (static site generator for Ghost) zur statischen Webseite konvertieren.&lt;/p&gt;
+
+&lt;h3 id="installierenvonbuster"&gt;Installieren von Buster&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo easy_install pip&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo pip install buster&lt;/code&gt; (um Buster zu installieren)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew install wget&lt;/code&gt; (wird von Buster gebraucht)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="ghostblogaufsetzen"&gt;Ghost Blog aufsetzen&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ghost.org/download/"&gt;Ghost&lt;/a&gt; von hier herunterladen&lt;/li&gt;
+&lt;li&gt;Entpacken und den Ordner an einen passenden Ort verschieben&lt;/li&gt;
+&lt;li&gt;Mittels dem Terminal zum Ordner "ghost" wechseln
+&lt;ul&gt;&lt;li&gt;&lt;code&gt;sudo npm install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo npm start&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Nun geht man auf &lt;a href="http://127.0.0.1:2368/ghost"&gt;http://127.0.0.1:2368/ghost&lt;/a&gt; und kann einen neuen Blog erstellen 😊&lt;/li&gt;
+&lt;li&gt;Um ein custom Theme von Github hinzuzufügen, den node server mittels ctr-c schliessen und in den Ordner ghost/content/theme wechseln
+&lt;ul&gt;&lt;li&gt;&lt;code&gt;git clone https://github.com/Kikobeats/uno-zen&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;im Ordner uno-zen sudo npm install ausführen&lt;/li&gt;
+&lt;li&gt;in den ghost/ Ordner wechseln und den node server neustarten sudo npm start&lt;/li&gt;
+&lt;li&gt;Unter &lt;a href="http://127.0.0.1:2368/ghost/settings/general/"&gt;http://127.0.0.1:2368/ghost/settings/general/&lt;/a&gt; kann man nun das Theme ändern&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="githubpagesrepobusteraufsetzen"&gt;Github Pages Repo / Buster aufsetzen&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Erstelle einen GitHub Account und erstell ein neues Repo mit dem Namen account_name.gihub.io&lt;/li&gt;
+&lt;li&gt;Erstelle einen neuen Checkout Ordner für den statischen GitHub Blog (nicht im Ghost Ordner)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo buster setup&lt;/code&gt; im neuen Ordner ausführen und die GitHub Repo Addresse eingeben. &lt;br&gt;
+(Bsp. &lt;a href="https://github.com/PortfolioBZZ/PortfolioBZZ.github.io.git"&gt;https://github.com/PortfolioBZZ/PortfolioBZZ.github.io.git&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;buster generate --domain=http://127.0.0.1:2368&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Nun wurde ein neuer Ordner mit dem Blog als statischen Inhalt kreiert, welchen man nun ganz einfach aufs GitHub Repo pushen kann.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>

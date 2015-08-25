@@ -1,2 +1,2 @@
-# Portfolio.github.io
-Dieses Repository verwende ich um meine Kompetenzen im Modul 152 nachzuweisen.
+# Blog
+Powered by [Ghost](http://ghost.org) and [Buster](https://github.com/axitkhurana/buster/).
