@@ -1,11 +1,11 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Modul 152: BZZ-Portfolio</title><description>Mittels diesem Portfolio, werde ich meine
 Kompetenzen für das Modul 152
-nachweisen.</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 25 Aug 2015 21:58:14 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Ghost and GitHub</title><description>&lt;h1 id="howtoblog"&gt;How to Blog&lt;/h1&gt;
+nachweisen.</description><link>https://PortfolioBZZ.github.io/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 25 Aug 2015 21:58:14 GMT</lastBuildDate><atom:link href="https://PortfolioBZZ.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Ghost and GitHub</title><description>&lt;h1 id="howtoblog"&gt;How to Blog&lt;/h1&gt;
 
 &lt;p&gt;Bei der Dokumentation meines Portfolios habe ich mich für einen einfachen HTML5 &amp;amp; CSS Blog entschieden. &lt;br&gt;
 Ich setze diesen Blog mittels des "back-to-basics" CMS, Ghost, in Verbindung mit dem webbasierten Versionverwaltungstool, Github, um.&lt;/p&gt;
 
-&lt;p&gt;Diese Technologien werden heute oft gebraucht, jedoch erläutere ich hier nochmals kurz die grossen&lt;/p&gt;</description><link>http://localhost:2368/ghost-and-github/</link><guid isPermaLink="false">89691554-0d66-4ee3-9d66-3fb236ba5142</guid><category>Github</category><category>Ghost</category><category>Dokumentation-Setup</category><dc:creator>Jorit Studer</dc:creator><pubDate>Tue, 25 Aug 2015 20:04:05 GMT</pubDate><content:encoded>&lt;h1 id="howtoblog"&gt;How to Blog&lt;/h1&gt;
+&lt;p&gt;Diese Technologien werden heute oft gebraucht, jedoch erläutere ich hier nochmals kurz die grossen&lt;/p&gt;</description><link>https://PortfolioBZZ.github.io/ghost-and-github/</link><guid isPermaLink="false">89691554-0d66-4ee3-9d66-3fb236ba5142</guid><category>Github</category><category>Ghost</category><category>Dokumentation-Setup</category><dc:creator>Jorit Studer</dc:creator><pubDate>Tue, 25 Aug 2015 20:04:05 GMT</pubDate><content:encoded>&lt;h1 id="howtoblog"&gt;How to Blog&lt;/h1&gt;
 
 &lt;p&gt;Bei der Dokumentation meines Portfolios habe ich mich für einen einfachen HTML5 &amp;amp; CSS Blog entschieden. &lt;br&gt;
 Ich setze diesen Blog mittels des "back-to-basics" CMS, Ghost, in Verbindung mit dem webbasierten Versionverwaltungstool, Github, um.&lt;/p&gt;
