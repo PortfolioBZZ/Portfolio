@@ -20,11 +20,11 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-title" content="Ghost" />
 
-    <link rel="shortcut icon" href="https://PortfolioBZZ.github.io/favicon.ico" />
-    <link rel="apple-touch-icon-precomposed" href="https://PortfolioBZZ.github.io/ghost/img/touch-icon-iphone.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://PortfolioBZZ.github.io/ghost/img/touch-icon-ipad.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://PortfolioBZZ.github.io/ghost/img/small.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://PortfolioBZZ.github.io/ghost/img/medium.png" />
+    <link rel="shortcut icon" href="http://portfoliobzz.github.io/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" href="http://portfoliobzz.github.io/ghost/img/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://portfoliobzz.github.io/ghost/img/touch-icon-ipad.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://portfoliobzz.github.io/ghost/img/small.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://portfoliobzz.github.io/ghost/img/medium.png" />
 
     <meta name="application-name" content="Ghost" />
     <meta name="msapplication-TileColor" content="#ffffff" />
@@ -34,23 +34,23 @@
 
         <meta name="env-fileStorage" content="true" />
         <meta name="env-apps" content="false" />
-        <meta name="env-blogUrl" content="https://PortfolioBZZ.github.io" />
+        <meta name="env-blogUrl" content="http://portfoliobzz.github.io" />
         <meta name="env-blogTitle" content="Modul 152: BZZ-Portfolio" />
         <meta name="env-routeKeywords" content="{&quot;tag&quot;:&quot;tag&quot;,&quot;author&quot;:&quot;author&quot;,&quot;page&quot;:&quot;page&quot;,&quot;preview&quot;:&quot;p&quot;,&quot;private&quot;:&quot;private&quot;}" />
 
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" />
 
-    <link rel="stylesheet" href="https://PortfolioBZZ.github.io/ghost/vendor.css" />
-    <link rel="stylesheet" href="https://PortfolioBZZ.github.io/ghost/ghost.css" />
-    
+    <link rel="stylesheet" href="http://portfoliobzz.github.io/ghost/vendor.css" />
+    <link rel="stylesheet" href="http://portfoliobzz.github.io/ghost/ghost.css" />
+
 </head>
 <body>
-    
 
-    <script src="https://PortfolioBZZ.github.io/ghost/vendor.js"></script>
-    <script src="https://PortfolioBZZ.github.io/ghost/ghost.js"></script>
 
-    
+    <script src="http://portfoliobzz.github.io/ghost/vendor.js"></script>
+    <script src="http://portfoliobzz.github.io/ghost/ghost.js"></script>
+
+
 
 </body>
 </html>
